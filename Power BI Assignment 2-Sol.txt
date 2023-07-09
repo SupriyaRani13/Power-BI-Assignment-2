@@ -1,0 +1,181 @@
+Power BI Assignment 2:-
+
+
+1.Explain the advantages of Natural Queries in PowerBi with an example?
+
+Ans: The advantages of Natural Queries in PowerBi:
+
+1.Ease of Use: Natural queries make it easier for users with limited technical knowledge or programming skills to interact with their data. 
+
+2.Time-saving: Natural queries save time by eliminating the need to manually create complex calculations or write lengthy queries. 
+
+3.Accessibility: Natural queries make data analysis more accessible to a broader range of users. 
+
+4.Increased Interactivity: Natural queries enhance the interactivity of data exploration. Users can have a conversation with their data,
+  refine their questions, and get instant feedback based on the results.
+ 
+2.Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+
+Ans: Web Front End (WFE) cluster refers to a group of servers responsible for handling the user interface and interaction with the Power BI service.
+     The WFE cluster acts as a gateway for users to access and interact with their Power BI content, such as reports, dashboards, and datasets.
+
+    1.User Interaction: The WFE cluster handles all user interactions with the Power BI service. When a user accesses the Power BI
+      service through a web browser or mobile app.
+    2.Load Balancing: The WFE cluster employs load balancing techniques to distribute user requests evenly across multiple servers within the cluster.
+
+    3.Scalability and Availability: The WFE cluster is designed for scalability and high availability. 
+
+    4.Security and Authentication: The WFE cluster plays a crucial role in enforcing security measures and handling user authentication.
+    
+    5.Caching and Performance: The WFE cluster may employ caching mechanisms to improve performance. Frequently accessed content,
+      such as reports or visualizations.
+
+3.Explain Back End cluster from Power BI Service Architecture?
+
+Ans: The Back End cluster refers to a group of servers and services responsible for handling data processing, storage, and management tasks. 
+     The Back End cluster works behind the scenes to support the functionality of the Power BI service, including data ingestion, transformation, 
+     storage, and query processing.
+
+   1.Query Processing and Data Modeling (QPDM) service.
+   2.Dataset Management service
+   3.Data Refresh and ETL (Extract, Transform, Load)
+   4.Collaboration and Content Management
+   5.dministrative and Monitoring Services
+   6.Gateway service
+   7.Data Storage
+
+4.What ASP.NET component does in Power BI Service Architecture?
+
+ Ans: ASP.NET components play a crucial role in handling the web application framework that powers the Power BI service.
+
+   Some key functions of ASP.NET components in the Power BI service architecture:
+
+   1.Web Application Framework: ASP.NET provides the framework for building web applications, including the Power BI service.
+
+   2.Web Request Processing: ASP.NET handles incoming web requests from users accessing the Power BI service.
+
+   3.User Authentication and Authorization: ASP.NET components in the Power BI service architecture handle user authentication and authorization.
+
+   4. Error Handling and Logging: ASP.NET components provide error handling and logging mechanisms within the Power BI service. 
+
+   5.Integration with Backend Services: ASP.NET components integrate with various backend services in the Power BI architecture. 
+
+5.Compare Microsoft Excel and PowerBi Desktop on the following features:
+  
+Ans: a.Data import:-
+       Data import features that allow users to bring data from various sources into their Power BI workspace for analysis and visualization.
+       Power Query Editor,APIs and Custom Connectors, Get Data, Dataflows these are Data import features.
+
+     b.Data transformation:-
+       Data transformation features that enable users to clean, shape, and prepare their data for analysis and visualization.
+       These features help users transform raw or unstructured data into a structured and usable format.
+       Removing duplicates, Filtering and sorting, Splitting and merging columns, Data type conversion, Adding calculated columns,
+       Data Type Detection and Transformation, Grouping and Aggregation, Merging and Appending, Pivot and Unpivot.
+   
+     c.Modeling:-
+       modeling features that allow users to define relationships, create calculated columns and measures, and design efficient data models.
+       These modeling features enable users to structure and enhance their data for analysis and visualization.
+       Calculation Groups, DAX (Data Analysis Expressions), Hierarchies,Measures, Calculated Columns, Relationships.
+
+     d.Reporting:-
+       Reporting features that allow users to create interactive and visually appealing reports and dashboards.
+       These features enable users to present data insights effectively and facilitate data exploration. 
+       Visualizations, Drag-and-Drop Interface, Interactive, Conditional Formatting, Drill-through and Drill-down,
+       Natural Language Queries, Exporting and Sharing, Report Interactions.
+
+
+     e.Server Deployment:-
+       Server deployment features that allow organizations to deploy and manage their Power BI content on-premises or in the cloud. 
+       These deployment options provide flexibility, security, and control over the Power BI environment.
+       Power BI Cloud Service, Power BI Report Server,Hybrid Deployment, Power BI Embedded, Security and Access Controls.
+
+     f.Convert Models:-
+       Power BI provides various modeling capabilities that allow users to create, modify, and enhance their data models.
+       These capabilities include defining relationships, creating calculated columns and measures, and performing data transformations 
+       using Power Query Editor.
+       
+     g.Cost:-
+       Cost-related features and capabilities that allow organizations to understand and manage the cost of using the Power BI service.
+       These features help users monitor and optimize their Power BI usage and expenses.
+       Power BI Premium, Power BI Embedded, Usage Metrics and Monitoring, Capacity Metrics, Power BI Embedded Capacity Metrics,
+       Cost Estimator.
+
+6.List 20 data sources supported by Power Bi desktop.
+ 
+ Ans: Power BI Desktop supports a wide range of data sources, allowing users to connect to various types of data to create reports and visualizations.
+      Here are 20 data sources supported by Power BI Desktop:
+      Excel workbook (XLSX, XLS)
+      CSV (Comma Separated Values) file
+      SharePoint List
+      SQL Server Database
+      Azure SQL Database
+      Oracle Database
+      MySQL Database
+      PostgreSQL Database
+      Teradata Database
+      IBM DB2 Database
+      Sybase Database
+      SharePoint Online
+      Dynamics 365
+      Salesforce
+      Google Analytics
+      Azure Data Lake Storage
+      Azure Blob Storage
+      Azure Table Storage
+      Web URL (HTML, XML, JSON)
+      OData Feed
+
+
+
+
+
+
+
+
+
+       
+           
+       
+
+       
+
+      
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
